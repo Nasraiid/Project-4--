@@ -1,0 +1,11 @@
+
+//media Queries 
+
+@mixin mq($break-s){
+
+    @if $break=='s'{
+    @media (min-width:$break-s){
+        @content;
+    }
+  }
+}
